@@ -1,70 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>FrontCat&Dog</title>
 </head>
+
 <body>
 
     <header>
-        <p>Grandes ofertas en comedores</p>
-        <p>Menu Regional</p>
-    <nav>
-        <UL>
-        <LI><a href="">Español</a></LI>
-        <LI><a href="">$ARG</a></LI>
-        </UL>
-    </nav>
-    </header> 
-    
-<main>
- <nav>
-       <h1>FrontCat&Dog</h1> 
-        <ul>
-            <li><a href="">Categorías</a></li>
-            <li><a href="">Pets</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Contactanos</a></li>
-        </ul>
-    </nav>
-    <img src="/img/bowl-and-pet-daities-on-green-background 1.png" alt="">
-    <h1>¡Es un placer tenerte aquí! </h1>
-    <p>¡Comederos en descuento!</p>
-    <a href="">COMEDEROS</a>
+        <div class="top-header">
+            <p class="titulo-1">Grandes ofertas en comedores</p>
+            <nav>
+                <UL class="idioma">
+                    <LI><a href="">Español</a></LI>
+                    <LI><a href="">$ARG</a></LI>
+                </UL>
+            </nav>
+        </div>
+        <div class="header">
+            <img src="./img/Logo.svg" alt="">
+            <nav>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-paw"></i><a href="">Categorías</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Pets</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Nosotros</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <img src="/img/patita.png" alt="">
-    <h2>Productos Destacados</h2>
-    <nav>
-        <ul>
-            <li><a href="">Comedores</a></li>
-            <li><a href="">Accesorios</a></li>
-            <li><a href="">Comida</a></li>
-        </ul>
-    </nav>
-    <article>
-        <img src="/img/churrasquito.png" alt="">
-        <p>Juguete churrasquito</p>
-        <p>$150</p>  
-    </article>
-    <article>
-        <img src="/img/comedero.png" alt="">
-        <p>Comedero para perro</p>
-        <p>$250</p>
-    </article>
-    <article>
-        <img src="/img/Huesito.png" alt="">
-        <p>Juguete huesito</p>
-        <p>$650</p>
-    </article>   
-</main>
+    <main>
+        <div class="baner">
+            <div>
+                <h1>¡Es un placer tenerte aquí! </h1>
+                <p>¡Comederos en descuento!</p>
+                <a href="">COMEDEROS</a>
+            </div>
+        </div>
+        <div class="mid">
+            <img src="./img/patita.png" alt="">
+            <h2>Productos Destacados</h2>
+            <nav>
+                <ul>
+                    <li><a href="">Comedores</a></li>
+                    <li><a href="">Accesorios</a></li>
+                    <li><a href="">Comida</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="card">
+            <article class="box1">
+                <img src="./img/churrasquito.png" alt="">
+                <p>Juguete churrasquito</p>
+                <p class="precio">$150</p>
+            </article>
+            <article class="box2">
+                <img src="./img/comedero.png" alt="">
+                <p>Comedero para perro</p>
+                <p class="precio">$250</p>
+            </article>
+            <article class="box3">
+                <img src="./img/Huesito.png" alt="">
+                <p>Juguete huesito</p>
+                <p class="precio">$650</p>
+            </article>
+        </section>
 
-<footer>
-    <p>Todos los derechos reservados Front End</p>
-</footer>
-    
-    
-    
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <section class="footer">
+                <article class="localidad">
+                    <img src="./img/localidad.png" alt="">
+                    <div>
+                        <h2>Localidad</h2>
+                        <p>Calle - provincia</p>
+                    </div>
+                </article>
+                <article class="telefono">
+                    <img src="./img/telefono.png" alt="">
+                    <div>
+                        <h2>Teléfono</h2>
+                        <p>Número de teléfono</p>
+                    </div>
+                </article>
+                <article class="correo">
+                    <img src="./img/correo.png" alt="">
+                    <div>
+                        <h2>Correo Electrónico</h2>
+                        <p>Dirección de correo</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <p class="derechos">Todos los derechos reservados Front End</p>
+    </footer>
+
+
+
 </body>
+
 </html>

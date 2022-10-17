@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #F3F3F3;  
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.top-header{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 90px;
+}
+
+.top-header a{   
+    color: #F3F3F3;
+}
+
+.idioma{
+    display: flex;
+    gap: 10px;
+}
+
+.header{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a{
+    font-size: 13px;
+}
+
+.baner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 409px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    /* me lo acomoda en el eje Y */
+    align-items: center;
+    padding: 1px ;
+    text-align: center;
+}
+
+.baner h1{
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 10px ;
+    margin-right: 22px;
+    border-radius: 10px;
+}
+
+.baner p{
+    margin: 20px;
+    text-align: center;
+}
+
+.baner a{
+    background-color: #F0A83E;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;   
+}
+
+.mid {
+    text-align: center;
+}
+
+.mid a{
+    color: black;
+}
+
+.mid ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.mid img{
+    margin-top: 30px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.precio{
+    color: #F0A83E;
+}
+
+.box1{
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+.box2{
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+.box3{
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+.top-footer{
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.derechos{
+    background-color: #222222;
+    color: #FFFFFF;
+    height: 20px;
+    text-align: center;
+}
+
+.footer{
+    padding: 30px;
+}
+
+.footer p{
+    color: #8A8787;
+}
+
+.localidad{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.telefono{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.correo{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media(max-width: 580px) {
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .menu{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .derechos{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 800px) {
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+}
